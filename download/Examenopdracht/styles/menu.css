@@ -1,0 +1,27 @@
+#menu{
+	background-color: brown;
+	width: 100%;
+	position: fixed;
+}
+#menu>ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu ul>li {
+	float: left;
+	width: 25%;
+}
+
+#menu>ul>li>a {
+	display: block;
+	padding: 16px;
+	text-decoration: none;
+	color: white;
+	text-align:center;
+}
+#menu>ul>li>a:hover{
+	background-color: white;
+	color: brown;
+}

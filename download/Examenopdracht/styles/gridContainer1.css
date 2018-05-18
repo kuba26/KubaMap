@@ -1,0 +1,27 @@
+#gridContainer{
+		display: grid;
+
+		grid-template-columns: 100%;
+		grid-template-rows: 50px auto auto auto ;
+		grid-template-areas: "menu"
+												 "intro"
+												 "foto"
+												 "footer";
+
+	}
+
+	#menu{
+		grid-area: menu;
+	}
+
+	#intro{
+		grid-area: intro;
+	}
+
+	#footer{
+		grid-area: footer;
+	}
+	
+	#foto{
+		grid-area: foto;
+	}

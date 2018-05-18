@@ -1,0 +1,31 @@
+#menu {
+	position: fixed;
+	background-color: #f1f1f1;
+	top: 0px;
+	width: 100%;
+}
+
+#menu>ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu ul>li {
+	float: left;
+}
+
+#menu>ul>li>a {
+	display: block;
+	padding: 16px;
+	text-decoration: none;
+	color: black;
+}
+
+#menu>ul>li>a:hover,
+.home #menu>ul>li>a.home,
+.producten #menu>ul>li>a.producten,
+.product #menu>ul>li>a.producten {
+	background-color: #f44336;
+	color: white;
+}

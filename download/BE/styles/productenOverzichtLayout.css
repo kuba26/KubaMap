@@ -1,0 +1,82 @@
+#filter {
+	color: white;
+}
+
+#filter>ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#filter>ul>li>a {
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	color: black;
+	background-color: #f1f1f1;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+#filter>ul>li>a:hover,
+#filter>ul>li>a.selected {
+	background-color: #f44336;
+	color: white;
+}
+
+.ProductItem
+{
+	grid-column-end: span 1;
+	color: white;
+	max-width: 600px;
+}
+
+.ProductItem h1 {
+	font-weight: normal;
+}
+
+.ProductItem div {
+	box-shadow: 0px 0px 15px black;
+}
+
+.ProductItem a {
+	text-decoration: none;
+	color: white;
+}
+
+.ProductItem a:hover div {
+	background-color: black;
+	box-shadow: 0px 0px 25px black;
+}
+
+.ProductItem div p {
+	text-align: center;
+	padding: 20px;
+}
+
+
+@media only screen and (min-width: 600px)
+{
+	#products {
+		grid-area: products;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 20px;
+	}
+	
+	#content {
+		display: grid;
+		grid-template-columns: 200px auto;
+		grid-template-areas: "filter products";
+		grid-gap: 20px;
+	}
+}
+@media only screen and (min-width: 900px)
+{
+	#products {
+		grid-area: products;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 20px;
+	}
+}

@@ -1,0 +1,54 @@
+#content {	
+	box-shadow: 0px 0px 15px black;
+	padding: 0px;
+	margin: 20px;
+}
+
+#imageTitle {
+	grid-area: titleImage;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	text-align: center;
+}
+
+#imageTitle>div {
+	padding-top: 300px;
+}
+
+#imageTitle>div>h1 {
+	padding: 0px;
+	margin: 0px;
+	color: white;
+	background-color: black;
+}
+
+#productSpecifications {
+	grid-area: specs;
+	color: white;
+}
+
+#productDescription {
+	grid-area: text;
+	color: white;
+}
+
+#productDescription>p,
+#productSpecifications>p {
+	margin: 0px;
+	padding: 16px;
+}
+
+
+@media only screen and (min-width: 600px)
+{
+	#content {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 400px auto;
+		grid-template-areas: "titleImage titleImage"
+							 "specs text";
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+}

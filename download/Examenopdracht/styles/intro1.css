@@ -1,0 +1,15 @@
+#intro>p>i{
+	color: brown;
+}
+#intro>a{
+	color: black;
+	text-decoration:none;
+	padding-left:5px;
+	font-weight: bold;
+}
+#foto{
+	text-align: center;
+}
+#foto>img{
+	width:50%;
+}

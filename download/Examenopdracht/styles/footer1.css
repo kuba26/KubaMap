@@ -1,0 +1,25 @@
+#footer {
+	background-color: brown;
+	color: white;
+	padding-top:10px;
+	text-align: center;
+}
+
+#footer>a{
+	text-decoration:none;
+	color:white;
+	padding: 10px 5px 10px 5px;
+	
+}
+
+#footer>a:hover{
+	color:brown;
+	background-color:white;
+}
+
+#footer>p>a{
+	color:white;
+
+#footer>p>a:hover{
+	color:green;
+}
