@@ -1,3 +1,26 @@
+<?php
+
+include_once("database.php")
+
+
+$mijnFilter = $_GET["filter"];
+
+$gefilterdeSmoesjes = array();
+
+for ($i =0; $i < count($smoesjes); ++$i)
+{
+	$smoesje = $smoesjes[$i];
+	$categories = $smoesje["categories"];
+	for ($j =0; $j < count($categories); ++$j)
+	{
+		$categoriename = $categories[$j];
+		if($categoriename == $mijnFilter)
+		{
+			array_push($gefilterdeSmoesjes, $smoesje);
+		}
+	}
+}
+?>
 <!DOCTYPE html>
 
 <html>
@@ -11,13 +34,25 @@
 	<body>
 		
 		
-		<button class="collapsible">Open Collapsible</button>
-			<div class="smoesje">
-					<img src="" alt="img">
-					<h1>Title</h1>
-					<p>Praesent tincidunt</p>
-				</div>
+		<div id="smoesjes">
+			
+			<?php
+			for ($i = 0; $i < count($gefilterdeSmoesjes) ; ++$i)
+			{
+				$smoesjesOnderdeel = $gefilterdeSmoesjes[$i];
+			?>
 
+
+			<button class="collapsible"><?$smoesjesOnderdeel["title"]?></button>
+				<div class="smoesje">
+						<img src="<?$smoesjesOnderdeel["image"]?>" alt="img">
+						<h1><?$smoesjesOnderdeel["title"]?></h1>
+						<p><?$smoesjesOnderdeel["text"]?></p>
+					</div>
+			<?php
+			}
+			?>
+		</div>
 			<script>
 			var coll = document.getElementsByClassName("collapsible");
 			var i;
