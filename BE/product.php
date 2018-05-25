@@ -1,22 +1,25 @@
 <?php
 
-include_once("database.php");
-		 
+  include_once("database.php");
+
+  $productID = $_GET["id"];
+  $productItem = $products[$productID];
 ?>
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
 		<link rel="stylesheet" type="text/css" href="styles/mainLayout.css">
-		<link rel="stylesheet" type="text/css" href="styles/productenOverzichtLayout.css">
+		<link rel="stylesheet" type="text/css" href="styles/productLayout.css">
 		<link rel="stylesheet" type="text/css" href="styles/menu.css">
-	
+
 		<title>
 			De bert & Ernie webshop
 		</title>
 	</head>
-	<body class="producten">
+	<body class="product">
 		<div id="menu">
 			<ul>
 				<li>
@@ -28,6 +31,7 @@ include_once("database.php");
 			</ul>
 		</div>
 
+		
 		<div id="gridContainer">
 			<div id="menuplaceholder">
 			</div>
@@ -41,46 +45,33 @@ include_once("database.php");
 			</div>
 			
 			
+      
 			<div id="content">
-				<div id="filter">
+				<div id="imageTitle" style="background-image: url('images/<?= $productItem["image"]; ?>')">
+					<div>
+						<h1>
+<?= $productItem["title"]; ?>
+						</h1>
+					</div>
+				</div>
+				
+				<div id="productSpecifications">
 					<p>
-						filter products:
+						product specificaties:
 					</p>
 					<ul>
-						<li>
-							<a href="producten.php">All Products</a>
-						</li>
-						<li>
-							<a href="producten.php?cat=1">Bernies</a>
-						</li>
-						<li>
-							<a href="producten.php?cat=2">Ernies</a>
-						</li>
+						<li>prijs: 25,00 &euro;</li>
+						<li>spec 2</li>
+						<li>spec 3</li>
+						<li>spec 4</li>
+						<li>spec 5</li>
 					</ul>
 				</div>
-				<div id="products">
-<?php
-	for($i = 0; $i < count($products); ++$i)			
-	{			
-			$productItem = $products[$i];	
-?>
-					<div class = "ProductItem">
-						<a href="product.php?id=<?= $i; ?>">
-						<h1>
-	<?= $productItem["title"];	?>					
-						</h1>
-						<div>
-							<img src="images/<?= $productItem["image"]; ?>" alt="Bert">
-							<p>
-								<?= $productItem["text"]; ?>
-							</p>
-						</div>
-						</a>
-					</div>
-	<?php
-					
-	}				
-	?>				
+				
+				<div id="productDescription">
+					<p>
+<?= $productItem["text"]; ?>
+					</p>
 				</div>
 			</div>
 		</div>

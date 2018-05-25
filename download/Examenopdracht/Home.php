@@ -4,11 +4,11 @@
 	
 	<head>
 		
-		<link rel="stylesheet" type="text/css" href="styles/menu.css">
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<link rel="stylesheet" type="text/css" href="styles/menu.css">
 		<link rel="stylesheet" type="text/css" href="styles/gridContainer1.css">
 		<link rel="stylesheet" type="text/css" href="styles/intro1.css">
-		<link rel="stylesheet" type="text/css" href="styles/footer1.css">
+		<link rel="stylesheet" type="text/css" href="styles/footer.css">
 		
 	</head>
 	
@@ -22,7 +22,7 @@
 						<a href="Home.php" class="home">Home</a>
 					</li>
 					<li>
-						<a href="smoesjes.php" class="smoesjes">De smoesjes</a>
+						<a href="smoesjes.php" class="smoesjes">Smoesjes</a>
 					</li>
 					<li>
 						<a href="voorstellen.php" class="voorstellen">Voorstellen</a>
