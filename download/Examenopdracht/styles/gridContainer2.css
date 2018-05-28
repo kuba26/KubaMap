@@ -1,0 +1,26 @@
+#gridContainer2{
+	display: grid;
+	
+	grid-template-columns: 100%;
+	grid-teplate-rows: 50px auto auto 100px ;
+	grid-template-areas: "menu"
+											 "filter"
+												"smoesjes"
+												"."
+												"footer"
+}
+#menu{
+		grid-area: menu;
+	}
+
+#footer{
+		grid-area: footer;
+	}
+
+#smoesjes{
+	grid-area: smoesjes;
+}
+
+#filter{
+	grid-area: filter;
+}

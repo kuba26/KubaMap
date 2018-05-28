@@ -1,6 +1,6 @@
 .collapsible {
-  background-color: #eee;
-  color: #444;
+  background-color: brown;
+  color: white;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -12,13 +12,37 @@
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-color: #ccc;
+  background-color: white;
+  color: brown;
+  border: 1px solid brown;
+  font-weight: bold;
+}
+#smoesjes{
+  
+  margin: 30px;
 }
 
 /* Style the collapsible content. Note: hidden by default */
-.content {
+.smoesje {
   padding: 0 18px;
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
+}
+
+.smoesje>img{
+  padding: 10px 0 0 0;
+  width: 25%;
+}
+
+#filter{
+  width: 20%;
+}
+
+#filter>a{
+  display: block;
+  background-color: #f1f1f1;
+  padding: 10px 20px 10px 20px;
+  color: black;
+  text-decoration: none;
 }

@@ -58,6 +58,15 @@ echo count($smoesjes);
 			}
 			?>
 		</div>
+		
+		<div id="filter">
+			<a href= "collapsible.php?filter=te laat">te laat</a> 
+			<a href= "collapsible.php?filter=school">school</a> 
+			<a href= "collapsible.php?filter=ouders">ouders</a> 
+			<a href= "collapsible.php?filter=vrienden">vrienden</a> 
+			<a href= "collapsible.php?filter=afwezig">afwezig</a> 
+			
+		</div>
 			<script>
 			var coll = document.getElementsByClassName("collapsible");
 			var i;
