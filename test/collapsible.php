@@ -1,6 +1,8 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
-include_once("database.php")
+include_once("datas.php");
 
 
 $mijnFilter = $_GET["filter"];
@@ -20,6 +22,9 @@ for ($i =0; $i < count($smoesjes); ++$i)
 		}
 	}
 }
+
+echo count($gefilterdeSmoesjes);
+echo count($smoesjes);
 ?>
 <!DOCTYPE html>
 
@@ -43,11 +48,11 @@ for ($i =0; $i < count($smoesjes); ++$i)
 			?>
 
 
-			<button class="collapsible"><?$smoesjesOnderdeel["title"]?></button>
+			<button class="collapsible"><p><?= $smoesjesOnderdeel["title"]?></p></button>
 				<div class="smoesje">
-						<img src="<?$smoesjesOnderdeel["image"]?>" alt="img">
-						<h1><?$smoesjesOnderdeel["title"]?></h1>
-						<p><?$smoesjesOnderdeel["text"]?></p>
+						<img src="<?= $smoesjesOnderdeel["image"]?>" alt="img">
+						<h1><?= $smoesjesOnderdeel["title"]?></h1>
+						<p><?= $smoesjesOnderdeel["text"]?></p>
 					</div>
 			<?php
 			}
