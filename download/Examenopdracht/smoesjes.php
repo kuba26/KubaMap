@@ -1,6 +1,4 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
 
 include_once("datas.php");
 
@@ -28,10 +26,11 @@ for ($i =0; $i < count($smoesjes); ++$i)
 <html>
 	
 	<head>
-		<link rel="stylesheet" type="text/css" href="styles/menu.css">
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
-		<link rel="stylesheet" type="text/css" href="styles/footer.css">
+		<link rel="stylesheet" type="text/css" href="styles/gridContainer2.css">
 		<link rel="stylesheet" type="text/css" href="styles/collapsible.css">
+		<link rel="stylesheet" type="text/css" href="styles/menu.css">
+		<link rel="stylesheet" type="text/css" href="styles/footer.css">
 		<link rel="stylesheet" type="text/css" href="styles/gridContainer2.css">
 		
 	</head>
@@ -45,7 +44,7 @@ for ($i =0; $i < count($smoesjes); ++$i)
 						<a href="Home.php" class="home">Home</a>
 					</li>
 					<li>
-						<a href="smoesjes.php" class="smoesjes">Smoesjes</a>
+						<a href="smoesjes.php?filter=alle" class="smoesjes">Smoesjes</a>
 					</li>
 					<li>
 						<a href="voorstellen.php" class="voorstellen">Voorstellen</a>
@@ -77,11 +76,16 @@ for ($i =0; $i < count($smoesjes); ++$i)
 		</div>
 		
 		<div id="filter">
+			<a href= "smoesjes.php?filter=alle">alle</a>
+			<a href= "smoesjes.php?filter=makkelijk">makkelijk</a>
+			<a href= "smoesjes.php?filter=matige moeilijkheid">matige moeilijkheid</a>
+			<a href= "smoesjes.php?filter=moeilijk">moeilijk</a>
 			<a href= "smoesjes.php?filter=te laat">te laat</a> 
 			<a href= "smoesjes.php?filter=school">school</a> 
 			<a href= "smoesjes.php?filter=ouders">ouders</a> 
 			<a href= "smoesjes.php?filter=vrienden">vrienden</a> 
 			<a href= "smoesjes.php?filter=afwezig">afwezig</a> 
+			
 			
 		</div>
 			<script>

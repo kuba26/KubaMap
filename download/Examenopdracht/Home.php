@@ -22,7 +22,7 @@
 						<a href="Home.php" class="home">Home</a>
 					</li>
 					<li>
-						<a href="smoesjes.php" class="smoesjes">Smoesjes</a>
+						<a href="smoesjes.php?filter=alle" class="smoesjes">Smoesjes</a>
 					</li>
 					<li>
 						<a href="voorstellen.php" class="voorstellen">Voorstellen</a>

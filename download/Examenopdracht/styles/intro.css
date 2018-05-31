@@ -1,12 +1,31 @@
-#intro>p>i{
-	color: brown;
+#gridContainer2{
+	
+	display: grid;
+	
+	grid-template-columns: 100%;
+	grid-template-rows: 50px auto auto auto 100px;
+	grid-template-areas:"menu"
+											"filter"
+											"smoesjes"
+											"."
+											"footer";
+	min-height: 100vh;
 }
-#intro>a{
-	color: black;
-	text-decoration:none;
-	padding-left:5px;
-	font-weight: bold;
+
+#menu{
+	grid-area: menu;
 }
-#foto{
-	margin: 50;
+
+#filter{
+	grid-area: filter;
+}
+#filter>a{
+	display: inline-block;
+}
+#smoesjes{
+	grid-area: smoesjes;
+}
+
+#footer{
+	grid-area: footer;
 }

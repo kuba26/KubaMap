@@ -1,26 +1,41 @@
 #gridContainer2{
+	
 	display: grid;
 	
 	grid-template-columns: 100%;
-	grid-teplate-rows: 50px auto auto 100px ;
-	grid-template-areas: "menu"
-											 "filter"
-												"smoesjes"
-												"."
-												"footer"
+	grid-template-rows: 50px auto auto auto 100px;
+	grid-template-areas:"menu"
+											"filter"
+											"smoesjes"
+											"."
+											"footer";
+	min-height: 100vh;
 }
+
 #menu{
-		grid-area: menu;
-	}
-
-#footer{
-		grid-area: footer;
-	}
-
-#smoesjes{
-	grid-area: smoesjes;
+	grid-area: menu;
 }
 
 #filter{
 	grid-area: filter;
+}
+#filter>a{
+	display: inline-block;
+}
+#smoesjes{
+	grid-area: smoesjes;
+}
+
+#footer{
+	grid-area: footer;
+}
+
+@media screen and (min-width: 990px)
+{
+	#filter>a{
+		display: block;
+	}
+	*{
+		font-size: initial;
+	}
 }
