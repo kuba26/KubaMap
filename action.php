@@ -1,6 +1,4 @@
 <?php
-echo $_GET["gebruikersnaam"]; ?>
-<br>
-<?php
-echo $_GET["wachtwoord"];
+echo "your mail has been sent"; ?>
+
 ?>
