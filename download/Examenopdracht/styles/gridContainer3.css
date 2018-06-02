@@ -1,0 +1,23 @@
+#gridContainer3{
+	
+	display: grid;
+	
+	grid-template-columns: 100%;
+	grid-template-rows: 50px auto auto 100px;
+	grid-template-areas:"menu"
+											"mail"
+											"."
+											"footer";
+	min-height: 100vh;
+}
+#menu{
+	grid-area: menu;
+}
+
+.mail{
+	grid-area: mail;
+}
+
+#footer{
+	grid-area: footer;
+}

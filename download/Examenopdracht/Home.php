@@ -54,7 +54,7 @@
 			<div id="footer">
 				<a href="contact.php">Klik hier voor contact</a>
 				<p>
-					Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>
+					Powered by Jakub Luykx
 				</p>
 			</div>
 		</div>

@@ -5,7 +5,7 @@
 	</head>
 	<body>
 		<div class="mail">
-  <form action="action_page.php">
+  <form action="action_page.php" method="get">
 
     <label for="adress">Your e-mailadress</label>
     <input type="text" id="adress" name="e-mailadress" placeholder="e-mailadress"> <br>
