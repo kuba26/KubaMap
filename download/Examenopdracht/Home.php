@@ -50,7 +50,7 @@
 			</div>
 			
 			<div id="foto">
-				<img src="fotos/download.png">
+				<img src="fotos/smoesjes.png">
 			</div>
 			<div id="footer">
 				<a href="contact.php">Klik hier voor contact</a>

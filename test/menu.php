@@ -4,27 +4,17 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="styles/menu.css">
-
+	<link rel="stylesheet" type="text/css" href="styles/menu2.css">
+	
 </head>
 
 <body>
 
-	<div class="menu" id="myTopnav">
-		<ul>
-			<li>
-				<a href="Home.php" class="home active">Home</a>
-			</li>
-			<li>
-				<a href="smoesjes.php?filter=alle" class="smoesjes">Smoesjes</a>
-			</li>
-			<li>
-				<a href="voorstellen.php" class="voorstellen">Voorstellen</a>
-			</li>
-			<li>
-				<a href="contact.php" class="contact">Contact</a>
-			</li>
-		</ul>
+	<div class="topnav" id="myTopnav">
+		<a href="Home.php" class="active">Home</a>
+		<a href="#smoesjes.php_filter'alle">Smoesjes</a>
+		<a href="voorstellen.php">Voorstellen</a>
+		<a href="contact">Contact</a>
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
@@ -38,10 +28,10 @@
 	<script>
 		function myFunction() {
 			var x = document.getElementById("myTopnav");
-			if (x.className === "menu") {
+			if (x.className === "topnav") {
 				x.className += " responsive";
 			} else {
-				x.className = "menu";
+				x.className = "topnav";
 			}
 		}
 	</script>

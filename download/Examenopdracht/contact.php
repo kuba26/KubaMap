@@ -41,7 +41,7 @@
 				Deze site is speciaal gemaakt op aanvraag van een vriend van mij. Hij heeft een moeilijke naam om te schrijven met html dus zal ik hem noemen bij zijn bijnaam, namelijk: Miko. Ik ben dankbaar voor zijn idee om deze site te maken want anders zat ik vandaag nog te denken waar ik deze site  zou over maken.
 			</p>
 			<p>
-				Wat meer informatie over mij: <br>16, word in de zomer van 2018 17.<br>Ik zit op Pius X en zit in de richting Boekhouden-inforatica.<br>Ik ben altijd geïnteresseerd om een site voor iemand te maken, natuurlijk tegen betaling. Hiervoor kan u mij contacteren via volgende: 
+				Wat meer informatie over mij: <br>Ik zit op Pius X en zit in het vijfde middelbaar in de richting Boekhouden-inforatica.<br>Ik ben altijd geïnteresseerd om een site voor iemand te maken, natuurlijk tegen betaling. Hiervoor kan u mij contacteren via volgende: 
 			</p>
 			<ul>
 				<li><a href="https://www.facebook.com/jakub.luykx.1"><i class="fa fa-facebook-official"></i></a></li>
