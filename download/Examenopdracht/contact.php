@@ -62,6 +62,12 @@
 			</p>
 		</div>
 		
+		<div id="footer">
+				<p>
+					Powered by Jakub Luykx
+				</p>
+			</div>
+		
 	</div>
 	
 </body>

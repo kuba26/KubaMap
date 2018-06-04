@@ -3,8 +3,9 @@
 	display: grid;
 	
 	grid-template-columns: 100%;
-	grid-template-rows: 50px auto auto 100px;
+	grid-template-rows: 50px 50px auto auto 100px;
 	grid-template-areas:"menu"
+											"intro"
 											"mail"
 											"."
 											"footer";
@@ -12,6 +13,10 @@
 }
 #menu{
 	grid-area: menu;
+}
+
+#intro{
+	grid-area: intro;
 }
 
 .mail{

@@ -30,7 +30,13 @@
 						</li>
 				</ul>
 				</div>
-
+			
+			<div id="intro">
+				<p>
+					Op deze site kan u nieuwe smoesjes indienen. Als ze goed genoeg zijn komen ze op de site.
+				</p>
+			</div>
+			
 			<div class="mail">
 		<form action="action_page.php" method="get">
 

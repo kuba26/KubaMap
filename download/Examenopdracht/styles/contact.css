@@ -28,6 +28,13 @@
 	    font: normal normal normal 30px/1 FontAwesome;
 }
 
+#favoriet{
+	margin-bottom: 20px;
+}
+
 #favoriet>p{
 	margin-bottom: 0
+}
+#favoriet>h1{
+	text-align: center;
 }
