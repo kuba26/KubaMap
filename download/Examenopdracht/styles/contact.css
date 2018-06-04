@@ -1,0 +1,33 @@
+#voorstellen>h1{
+	text-align: center;
+}
+
+#voorstellen>img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#voorstellen>ul{
+	margin: 0;
+	margin-left: 10px;
+	padding-left: 0;
+}
+#voorstellen>ul>li{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 10px; 
+}
+
+#voorstellen>ul>li:hover{
+	opacity: 0.5;
+}
+
+#voorstellen>ul>li>a>i{
+	    font: normal normal normal 30px/1 FontAwesome;
+}
+
+#favoriet>p{
+	margin-bottom: 0
+}

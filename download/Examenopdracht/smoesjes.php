@@ -26,6 +26,7 @@ for ($i =0; $i < count($smoesjes); ++$i)
 <html>
 	
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
 		<link rel="stylesheet" type="text/css" href="styles/gridContainer2.css">
 		<link rel="stylesheet" type="text/css" href="styles/collapsible.css">
@@ -33,6 +34,7 @@ for ($i =0; $i < count($smoesjes); ++$i)
 		<link rel="stylesheet" type="text/css" href="styles/footer.css">
 		<link rel="stylesheet" type="text/css" href="styles/gridContainer2.css">
 		
+		<title>Smoesjes.be</title>
 	</head>
 	
 	<body>
@@ -109,7 +111,7 @@ for ($i =0; $i < count($smoesjes); ++$i)
 			<div id="footer">
 				<a href="contact.php">Klik hier voor contact</a>
 				<p>
-					Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>
+					Powered by Jakub Luykx
 				</p>
 			</div>
 			

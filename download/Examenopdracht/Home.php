@@ -3,13 +3,14 @@
 <html>
 	
 	<head>
-		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
 		<link rel="stylesheet" type="text/css" href="styles/menu.css">
 		<link rel="stylesheet" type="text/css" href="styles/gridContainer1.css">
 		<link rel="stylesheet" type="text/css" href="styles/intro1.css">
 		<link rel="stylesheet" type="text/css" href="styles/footer.css">
 		
+		<title>Smoesjes.be</title>
 	</head>
 	
 	<body>
@@ -45,7 +46,7 @@
 				</p>
 				<br>
 				<br>
-				<a href="smoesjes.php">Klik hier om naar de smoesjes te gaan</a>
+				<a href="smoesjes.php?filter=alle">Klik hier om naar de smoesjes te gaan</a>
 			</div>
 			
 			<div id="foto">

@@ -1,0 +1,29 @@
+#gridContainer4{
+	display: grid;
+	
+	grid-template-columns: 100%;
+	grid-template-rows: 50px auto auto auto 100px;
+	grid-template-areas:"menu"
+											"voorstellen"
+											"favoriet"
+											"."
+											"footer";
+}
+
+#menu{
+	grid-area: menu;
+}
+
+#voorstellen{
+	grid-area: voorstellen;
+}
+
+#favoriet{
+	grid-area: favoriet;
+}
+
+
+
+#footer{
+	grid-area: footer;
+}

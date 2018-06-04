@@ -11,15 +11,16 @@
 
 #menu ul>li {
 	float: left;
-	width: 25%;
+	width: 24.999%;
 }
 
 #menu>ul>li>a {
 	display: block;
-	padding: 16px;
+	text-align: center;
+	padding: 8px 0 8px 12px;
+	width:100%;
 	text-decoration: none;
 	color: white;
-	text-align:center;
 }
 #menu>ul>li>a:hover{
 	background-color: white;
